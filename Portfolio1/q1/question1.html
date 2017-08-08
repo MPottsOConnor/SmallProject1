@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />	
+    <title>Question 1: Tables</title>
+
+    <style>
+            td, th {
+              border: 1px dotted black;
+            }
+            th {
+              font-weight: normal;
+              font-size: 120%;
+            }
+            table.featured{
+              border: 3px solid black;
+            }
+            tfoot tr {
+                  font-style: italic;
+                      }
+    </style>
+
+  </head>
+  <body>
+
+      <table class = "featured" cellpadding="6" border = "1">
+        <col width="50%">
+        <col width="25%">
+        <thead>
+        <tr bgcolor="#CCCCCC">
+          <th>Table-heading-1</th>
+          <th>Table-heading-2 </th> 
+          <th>Table-heading-3</th>
+        </tr>
+        </thead>
+        <tr>
+          <td>line-1-col-1 </td>
+          <td>line-1-col-2</td> 
+          <td>line-1-col-3</td>
+        </tr>
+        <tr>
+          <td>line-2-col-1 </td>
+          <td>line-2-col-2</td> 
+          <td>line-2-col-3</td>
+        </tr>
+        <tfoot>
+        <tr>
+          <td>footer-col-1</td>
+          <td>footer-col-2</td> 
+          <td>footer-col-3</td>
+        </tr>
+        </tfoot>
+      </table>
+    
+  </body>
+</html>
